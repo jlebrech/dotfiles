@@ -1,0 +1,10 @@
+# Focus Bindings
+bind right:alt    focus right
+bind left:alt     focus left
+bind up:alt      focus up
+bind down:alt     focus down
+bind pad5:ctrl   focus behind
+
+# throw bindings
+bind 1:alt     throw 0 resize
+bind 2:alt     throw 1 resize

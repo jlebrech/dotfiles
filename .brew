@@ -1,0 +1,9 @@
+#!/bin/bash
+
+brew install ack
+brew install mercurial
+brew install https://raw.github.com/Homebrew/homebrew-dupes/master/vim.eb 
+brew install git
+brew install lynx
+brew install wget
+
