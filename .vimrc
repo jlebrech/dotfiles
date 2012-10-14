@@ -13,16 +13,18 @@ Bundle 'gmarik/vundle'
 Bundle 'vim-scripts/taglist.vim'
 Bundle 'vim-scripts/ctrlp.vim'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'harlequin'
 Bundle 'mileszs/ack.vim'
+Bundle 'vim-scripts/bufmru.vim'
+Bundle 'tpope/vim-rails'
 
 set number
 
-let g:solarized_termcolors=16
+"let g:solarized_termcolors=16
 
 syntax enable
-set background=dark
-colorscheme solarized
-
+set background=light
+colorscheme harlequin
 
 filetype plugin indent on     " required!
  "
