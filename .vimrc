@@ -14,6 +14,7 @@ Bundle 'vim-scripts/taglist.vim'
 Bundle 'vim-scripts/ctrlp.vim'
 Bundle 'altercation/vim-colors-solarized'
 Bundle 'harlequin'
+Bundle 'vim-scripts/Ubloh-Color-Scheme'
 Bundle 'mileszs/ack.vim'
 Bundle 'vim-scripts/bufmru.vim'
 Bundle 'tpope/vim-rails'
@@ -24,7 +25,7 @@ set number
 
 syntax enable
 set background=light
-colorscheme harlequin
+colorscheme ubloh
 
 filetype plugin indent on     " required!
  "
