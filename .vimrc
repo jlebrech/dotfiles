@@ -13,19 +13,24 @@ Bundle 'gmarik/vundle'
 Bundle 'vim-scripts/taglist.vim'
 Bundle 'vim-scripts/ctrlp.vim'
 Bundle 'altercation/vim-colors-solarized'
+Bundle 'harlequin'
+Bundle 'vim-scripts/Ubloh-Color-Scheme'
 Bundle 'mileszs/ack.vim'
 Bundle 'pangloss/vim-javascript'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'tpope/vim-fugitive'
+Bundle 'vim-scripts/bufmru.vim'
+Bundle 'tpope/vim-rails'
+Bundle 'xolox/vim-easytags'
 
 "show the line number
 set number
 
-" enabled the solarized theme
-let g:solarized_termcolors=16
+"let g:solarized_termcolors=16
+
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme ubloh
 
 filetype plugin indent on     " required!
  "
@@ -49,4 +54,7 @@ let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 
 let g:Powerline_symbols = 'fancy'
 
+map <F8> :!/usr/local/bin/ctags -R .<CR>
+
+set backspace=2
 set laststatus=2
