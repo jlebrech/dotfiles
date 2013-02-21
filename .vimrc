@@ -25,6 +25,7 @@ Bundle 'vim-ruby/vim-ruby'
 Bundle 'ervandew/supertab'
 Bundle 'vim-scripts/mru.vim'
 Bundle 'skalnik/vim-vroom'
+Bundle 'vim-scripts/PrevInsertComplete'
 
 Bundle 'epmatsw/ag.vim'
 nmap <C-f> :Ag 
