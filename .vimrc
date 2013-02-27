@@ -24,6 +24,7 @@ Bundle 'vim-scripts/IndentAnything'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'ervandew/supertab'
 Bundle 'vim-scripts/mru.vim'
+Bundle 'vim-scripts/surround.vim'
 Bundle 'skalnik/vim-vroom'
 Bundle 'vim-scripts/PrevInsertComplete'
 
