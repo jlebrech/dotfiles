@@ -27,6 +27,7 @@ Bundle 'vim-scripts/mru.vim'
 Bundle 'vim-scripts/surround.vim'
 Bundle 'skalnik/vim-vroom'
 Bundle 'vim-scripts/PrevInsertComplete'
+Bundle 'airblade/vim-gitgutter'
 
 Bundle 'epmatsw/ag.vim'
 nmap <C-f> :Ag 
