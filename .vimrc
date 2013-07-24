@@ -79,3 +79,7 @@ set ttyfast
 set mouse=a
 
 set noswapfile
+inoremap <silent> <Esc> <C-O>:stopinsert<CR>
+
+set guifont=Ubuntu\ Mono\ for\ Powerline\ 12
+map q <Nop>
