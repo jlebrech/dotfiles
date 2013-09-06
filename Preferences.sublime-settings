@@ -7,6 +7,7 @@
 	[
 		"Vintage"
 	],
+	"hot_exit": false,
 	"remember_open_files": false,
 	"save_on_focus_lost": true,
 	"tab_size": 2,
