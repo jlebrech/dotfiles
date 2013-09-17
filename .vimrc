@@ -83,3 +83,8 @@ inoremap <silent> <Esc> <C-O>:stopinsert<CR>
 
 set guifont=Ubuntu\ Mono\ for\ Powerline\ 12
 map q <Nop>
+
+imap <ESC>oA <ESC>ki
+imap <ESC>oB <ESC>ji
+imap <ESC>oC <ESC>li
+imap <ESC>oD <ESC>hi
