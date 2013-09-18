@@ -28,7 +28,7 @@ Bundle 'vim-scripts/surround.vim'
 Bundle 'skalnik/vim-vroom'
 Bundle 'vim-scripts/PrevInsertComplete'
 Bundle 'airblade/vim-gitgutter'
-
+Bundle 'danro/rename.vim'
 Bundle 'epmatsw/ag.vim'
 nmap <C-f> :Ag 
 imap <C-f> <Esc>:Ag <C-r><C-w><CR>
